@@ -1,0 +1,27 @@
+{
+    "name": "repo-manager",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon --ignore data/ server.js"
+    },
+    "dependencies": {
+        "apollo-server": "^2.12.0",
+        "apollo-server-express": "^2.12.0",
+        "axios": "^0.19.2",
+        "body-parser": "",
+        "cors": "",
+        "dotenv": "^8.2.0",
+        "express": "",
+        "express-graphql": "^0.9.0",
+        "express-jwt": "",
+        "graphiql": "^0.17.5",
+        "graphql": "^15.0.0",
+        "graphql-tools": "^5.0.0",
+        "jsonwebtoken": "8.5.1",
+        "notarealdb": "0.2.2"
+    },
+    "devDependencies": {
+        "nodemon": "1.19.1"
+    }
+}
